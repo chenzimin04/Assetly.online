@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink antialiased;
+  background-image:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0) 24%),
+    linear-gradient(180deg, #f7f3ec 0%, #f3efe8 54%, #f8f5ef 100%);
+}
+
+a {
+  @apply text-inherit no-underline;
+}
+
+.container-shell {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-gap {
+  @apply py-16 sm:py-20 lg:py-24;
+}
+
+.cta-primary {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold text-white transition duration-200 hover:-translate-y-[1px];
+  background-color: #111111;
+}
+
+.cta-primary:hover {
+  background-color: #1a1a1a;
+}
+
+.cta-secondary {
+  @apply inline-flex items-center justify-center rounded-full px-5 py-3 text-sm font-semibold text-ink transition duration-200 hover:-translate-y-[1px];
+  border: 1px solid rgba(17, 17, 17, 0.15);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.cta-secondary:hover {
+  border-color: rgba(17, 17, 17, 0.28);
+  background-color: #ffffff;
+}
+
+.nav-link {
+  @apply inline-flex items-center rounded-full px-3 py-2 text-[12px] font-medium tracking-[0.08em] transition hover:text-ink;
+  color: rgba(17, 17, 17, 0.56);
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-link-active {
+  @apply bg-white text-ink shadow-[inset_0_0_0_1px_rgba(17,17,17,0.08)];
+}
+
+.nav-link-accent {
+  @apply border;
+  border-color: rgba(17, 17, 17, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(17, 17, 17, 0.72);
+}
+
+.surface-panel {
+  @apply rounded-[20px] border shadow-[0_20px_60px_rgba(17,17,17,0.06)] backdrop-blur-sm;
+  border-color: rgba(17, 17, 17, 0.1);
+  background-color: rgba(255, 255, 255, 0.88);
+}
+
+.section-kicker {
+  @apply text-[11px] font-semibold uppercase tracking-[0.18em];
+  color: rgba(17, 17, 17, 0.44);
+}
+
+.eyebrow-chip {
+  @apply inline-flex items-center rounded-full border px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] backdrop-blur-sm;
+  border-color: rgba(17, 17, 17, 0.1);
+  background-color: rgba(255, 255, 255, 0.82);
+  color: rgba(17, 17, 17, 0.58);
+}
