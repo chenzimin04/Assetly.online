@@ -15,7 +15,7 @@ export async function sendDownloadEmail(input: {
   expiresAt: string;
 }) {
   const resend = getResend();
-  const from = process.env.FROM_EMAIL || "PromptPocket <deliveries@example.com>";
+  const from = process.env.FROM_EMAIL || "Assetly <deliveries@example.com>";
   const supportEmail = process.env.SUPPORT_EMAIL || "support@example.com";
 
   return resend.emails.send({

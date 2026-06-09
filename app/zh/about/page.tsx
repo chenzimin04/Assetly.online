@@ -3,20 +3,18 @@ export default function ChineseAboutPage() {
     <div className="section-gap">
       <div className="container-shell max-w-4xl space-y-6">
         <p className="section-kicker">关于</p>
-        <h1 className="text-4xl font-semibold tracking-tight">PromptPocket 是一家销售实用写作类数字商品的小型独立商店。</h1>
+        <h1 className="text-4xl font-semibold tracking-tight">Assetly 是一家销售实用数字产品的独立商店。</h1>
         <div className="space-y-4 text-sm leading-7 text-ink/75">
           <p>
-            PromptPocket 主要销售可下载的数字产品，用于店铺文案、上线表达和客户沟通流程。这些产品会在付款后以文件包的形式交付，适合需要可复用写作工具的买家，而不是定制服务。
+            Assetly 主要销售可下载的数字商品，面向创作者、线上商家与小团队，提供买后即可使用的文件、模板、提示词包、页面蓝图与参考资料。
           </p>
           <p>
-            这个 storefront 的重点是把产品范围讲清楚。每个商品页都会说明包含内容、文件格式、一口价以及付款后的数字交付方式。
+            我们不会把商品包装成模糊服务。每个产品页都会明确说明包含内容、适用场景、文件格式、价格和付款后的交付方式，方便买家在下单前判断价值。
           </p>
           <p>
-            本站不销售实物商品，也不默认提供代写、顾问、托管执行或订阅制访问，除非某个商品页明确写明这些内容。
+            本站销售的是数字下载内容，不寄送实体商品，也不默认提供代做、顾问或托管执行服务，除非某个产品页面另有明确说明。
           </p>
-          <p>
-            这个商店的目标很简单：提供描述清楚、可以直接下载的数字资源，帮助创作者和小型线上业务更高效地写作和运营。
-          </p>
+          <p>我们希望这个商店足够清晰、真实、可验证，让客户一眼知道自己会买到什么，也让后续交付和售后路径保持简单直接。</p>
         </div>
       </div>
     </div>

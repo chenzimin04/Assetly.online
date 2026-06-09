@@ -5,8 +5,8 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
-  title: "PromptPocket | Digital Product Store",
-  description: "Professional digital resources for storefront copy, launch messaging, and customer support workflows.",
+  title: "Assetly | Digital Product Store",
+  description: "Curated digital products for creators, online sellers, and small teams buying ready-to-use assets.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000")
 };
 

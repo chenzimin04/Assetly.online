@@ -606,12 +606,12 @@ export const copy = {
       subtitle: "One-time payment. Secure checkout with Lemon Squeezy. Instant digital delivery after payment."
     },
     footer: {
-      description: "Digital products for storefront copy, launch messaging, and customer communication workflows.",
+      description: "Digital products for creators, online sellers, and small teams buying ready-to-use assets.",
       meta: "Secure checkout. Instant digital delivery. One-time pricing.",
       catalog: "Catalog",
       company: "Company",
       policies: "Policies",
-      digitalOnly: "PromptPocket sells digital downloads only. No physical goods are shipped.",
+      digitalOnly: "Assetly sells digital downloads only. No physical goods are shipped.",
       currency: "All product pricing is shown in USD."
     }
   },
@@ -696,7 +696,7 @@ export const copy = {
       catalog: "产品目录",
       company: "品牌信息",
       policies: "政策说明",
-      digitalOnly: "PromptPocket 仅销售数字下载内容，不寄送任何实体商品。",
+      digitalOnly: "Assetly 仅销售数字下载内容，不寄送任何实体商品。",
       currency: "所有产品价格均以美元显示。"
     }
   }

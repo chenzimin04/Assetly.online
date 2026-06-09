@@ -15,7 +15,7 @@ export function SiteFooter() {
       <div className="container-shell space-y-10 text-sm text-ink/65">
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.9fr_0.9fr_0.9fr]">
           <div className="max-w-sm space-y-3">
-            <p className="text-sm font-semibold tracking-tight text-ink">PromptPocket</p>
+            <p className="text-sm font-semibold tracking-tight text-ink">Assetly</p>
             <p>{footerCopy.description}</p>
             <p className="text-xs uppercase tracking-[0.14em] text-ink/45">{footerCopy.meta}</p>
           </div>
