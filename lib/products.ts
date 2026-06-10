@@ -300,7 +300,7 @@ const zhOverrides: Record<string, Partial<Product>> = {
       "额外附带推广短文案和客户回复模板",
       "可下载 PDF 指南与可编辑文本文件"
     ],
-    benefits: ["更快完成商品文案", "多产品页面表达更统一", "减少反复重写和空白卡顿", "后续上新可复用同一套结构"],
+    benefits: ["更快完成商品文案", "让多产品页面表达更统一", "减少反复重写和空白卡顿", "后续上新可复用同一套结构"],
     audience: ["准备上新商品的 Etsy 卖家", "按需打印店铺经营者", "手作商品创作者", "希望更高效产出内容的副业卖家"],
     faqs: [
       {
@@ -334,7 +334,7 @@ const zhOverrides: Record<string, Partial<Product>> = {
       "帮助先收紧定位再开写的简明信息工作表",
       "可编辑文本文件，方便后续产品持续复用"
     ],
-    benefits: ["更快搭好上线所需文案", "让页面与邮件语气保持一致", "更清楚地讲明你卖什么、为什么值得买", "后续发售仍可沿用同一套流程"],
+    benefits: ["更快搭好上线所需文案", "让页面与邮件语气保持一致", "更清楚地说明你卖什么、为什么值得买", "后续发售仍可沿用同一套流程"],
     audience: ["准备上线新店铺的创作者", "验证首个数字产品的独立卖家", "想重写弱首页的单人经营者", "没有专职文案的小团队"],
     faqs: [
       {
@@ -364,7 +364,7 @@ const zhOverrides: Record<string, Partial<Product>> = {
     tier: "运营版",
     included: [
       "适用于订单进度、退款、延迟和常见问题的回复模板",
-      "可调成冷静、简洁或更高级语气的语气优化提示词",
+      "可调整成冷静、简洁或更高级语气的语气优化提示词",
       "面对复杂沟通时的升级处理建议",
       "可复用的邮件与平台私信片段"
     ],
@@ -388,11 +388,10 @@ const zhOverrides: Record<string, Partial<Product>> = {
         answer: "付款后会立即提供数字下载。"
       }
     ]
-  }
-  ,
+  },
   "ai-matte-primer-detail-page-blueprint": {
     name: "AI 哑光妆前乳详情页蓝图",
-    subtitle: "一份适合打造高级美妆详情页的视觉提示词蓝图，聚焦哑光妆前乳场景与广告感画面。",
+    subtitle: "一份适合打造高质感美妆详情页的视觉提示词蓝图，聚焦哑光妆前乳场景与广告感画面。",
     description: "这是一份可下载的 PDF 蓝图，适合美妆卖家、设计师和提示词创作者，用来更快搭建一套更完整、更高级的哑光妆前乳详情页视觉方案。",
     category: "美妆提示词",
     format: "PDF",
@@ -410,45 +409,19 @@ const zhOverrides: Record<string, Partial<Product>> = {
       "让产品页从首图到细节图保持统一的高级感",
       "可复用到妆前乳、美妆护肤或相关视觉提案项目中"
     ],
-    audience: [
-      "正在做美妆详情页的品牌方或卖家",
-      "想做美妆类提示词产品的创作者",
-      "负责化妆品落地页或视觉提案的设计师",
-      "测试高端美妆广告方向的营销人员"
-    ],
+    audience: ["正在做美妆详情页的品牌方或卖家", "想做美妆类提示词产品的创作者", "负责化妆品落地页或视觉提案的设计师", "测试高端美妆广告方向的营销人员"],
     previewSections: [
       {
-        sectionTitle: "内含风格方向",
-        items: [
-          "Vogue 杂志风美妆大片",
-          "纯产品主视觉图方向",
-          "Dior 式黑金高级感方向",
-          "极简高端构图方向",
-          "红毯风与艺术馆风美妆概念"
-        ]
+        sectionTitle: "包含的风格方向",
+        items: ["Vogue 杂志风美妆大片", "纯产品主视觉图方向", "Dior 式黑金高级感方向", "极简高端构图方向", "红毯风与艺术馆风美妆概念"]
       },
       {
-        sectionTitle: "详情页画面结构",
-        items: [
-          "首屏主视觉图",
-          "核心卖点图",
-          "毛孔对比图",
-          "产品质地图",
-          "妆前妆后对比图",
-          "持妆测试图",
-          "成分展示图",
-          "目标用户图"
-        ]
+        sectionTitle: "详情页会用到哪些图",
+        items: ["首屏主视觉图", "核心卖点图", "毛孔对比图", "产品质地图", "妆前妆后对比图", "持妆测试图", "成分展示图", "目标用户图"]
       },
       {
-        sectionTitle: "更容易转化的画面思路",
-        items: [
-          "控油与隐匿毛孔的卖点表达",
-          "妆前妆后型证据画面",
-          "12 小时持妆叙事",
-          "通过质地图建立配方信任感",
-          "干净的信息图式卖点布局"
-        ]
+        sectionTitle: "高转化画面思路",
+        items: ["控油与隐匿毛孔的卖点表达", "妆前妆后型证据画面", "12 小时持妆叙事", "通过质地图建立配方信任感", "干净的信息图式卖点布局"]
       }
     ],
     promptSamples: [
@@ -520,7 +493,7 @@ export function getLocalizedProducts(locale: Locale) {
   return products.map((product) => getLocalizedProduct(product.slug, locale) || product);
 }
 
-export const featuredProductSlug = "shop-launch-copy-kit";
+export const featuredProductSlug = "ai-matte-primer-detail-page-blueprint";
 
 export const copy = {
   en: {
@@ -628,15 +601,15 @@ export const copy = {
     },
     home: {
       eyebrow: "精选数字产品",
-      title: "为店铺文案、上线表达与客户沟通准备的一组清晰数字产品。",
-      subtitle: "每个产品单独售卖，说明直接、定价透明，付款后即可完成数字交付。",
+      title: "为创作者、线上商家与小团队准备的一组可直接购买的数字商品。",
+      subtitle: "每个产品单独售卖，说明清楚，定价透明，付款后即可完成数字交付。",
       primaryCta: "查看产品",
       secondaryCta: "查看主推产品",
       stats: ["一次性定价", "安全结账", "即时数字交付"],
-      featuredEyebrow: "本周主推",
+      featuredEyebrow: "主推产品",
       collectionEyebrow: "产品目录",
       collectionTitle: "每个产品都定义了交付内容、价格边界和购买后的访问方式。",
-      collectionSubtitle: "你可以先读清楚内容结构，再决定是否购买；不会被打包叙事或模糊承诺带着走。",
+      collectionSubtitle: "你可以先读清楚内容结构，再决定是否购买；不会被模糊承诺或过度包装带着走。",
       faqEyebrow: "常见问题",
       faqTitle: "购买前最常被问到的几件事。"
     },
@@ -647,7 +620,7 @@ export const copy = {
       faqTitle: "常见问题",
       purchaseLabel: "一次性购买",
       buyButton: "立即购买",
-      purchaseNotes: ["付款后即时交付", "下载链接会发送到邮箱", "一次性购买，无订阅费用"],
+      purchaseNotes: ["付款后即时交付", "下载链接会发送到邮箱", "一次性购买，无订阅或循环收费"],
       refundNote: "由于数字产品会在付款后立即提供访问权限，除非法律另有要求，销售通常为最终成交。",
       purchaseSummaryTitle: "你将获得什么",
       purchaseSummaryBody: "这是数字下载产品。完成付款后，买家将获得本页所列文件包的访问权限。",
@@ -657,7 +630,7 @@ export const copy = {
     productsPage: {
       eyebrow: "产品目录",
       title: "交付边界明确、一次性定价透明的数字产品。",
-      subtitle: "每个产品页面都会直接说明买家付款后究竟会收到什么。",
+      subtitle: "每个产品页面都会直接说明买家付款后究竟会收到什么、如何交付，以及不包含什么。",
       viewLabel: "查看产品"
     },
     faq: {
@@ -682,7 +655,7 @@ export const copy = {
         "这些信息可能包括你的邮箱地址、订单详情、设备数据和分析事件数据。",
         "支付由 Lemon Squeezy 处理，我们不会在本站存储你的完整银行卡信息。",
         "我们可能会使用 GA4、TikTok Pixel 等分析工具来衡量流量和转化表现。",
-        "如果你需要处理访问权限或数据相关请求，请通过订单邮件中的支持邮箱联系我们。"
+        "如需处理访问权限或数据相关请求，请通过订单邮件中的支持邮箱联系我们。"
       ]
     },
     checkout: {
@@ -691,7 +664,7 @@ export const copy = {
       subtitle: "一次性付款。通过 Lemon Squeezy 安全结账。付款后即时交付数字内容。"
     },
     footer: {
-      description: "用于店铺文案、上线表达与客户沟通流程的数字产品。",
+      description: "面向创作者、线上商家与小团队的实用数字商品。",
       meta: "安全结账，即时交付，一次性定价。",
       catalog: "产品目录",
       company: "品牌信息",

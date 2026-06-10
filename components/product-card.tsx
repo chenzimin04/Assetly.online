@@ -9,8 +9,7 @@ export function ProductCard({ product, locale = "en" }: { product: Product; loca
   const viewLabel = copy[locale].productsPage.viewLabel;
   const includedPreview = product.included.slice(0, 2);
   const deliveryLabel = locale === "zh" ? "数字下载" : "Digital download";
-  const deliveryNote =
-    locale === "zh" ? "付款后通过邮件发送下载链接。" : "Instant access after checkout, with the download link sent by email.";
+  const deliveryNote = locale === "zh" ? "付款后即时开通访问，并通过邮件发送下载链接。" : "Instant access after checkout, with the download link sent by email.";
 
   return (
     <article className="surface-panel overflow-hidden transition duration-300 hover:-translate-y-[2px] hover:border-ink/16">

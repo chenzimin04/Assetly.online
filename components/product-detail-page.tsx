@@ -27,7 +27,7 @@ const extraLabels = {
   zh: {
     benefitsEyebrow: "为什么有用",
     benefitsTitle: "这份产品能帮你省下什么",
-    audienceEyebrow: "适合谁",
+    audienceEyebrow: "适合谁用",
     previewEyebrow: "内容预览",
     previewTitle: "你实际会看到什么",
     galleryTitle: "样张预览",
@@ -37,7 +37,7 @@ const extraLabels = {
     formatLabel: "文件格式",
     categoryLabel: "产品分类",
     deliveryLabel: "交付方式",
-    deliveryValue: "付款后立即下载",
+    deliveryValue: "付款后即时下载",
     fallbackCategory: "数字产品",
     fallbackFormat: "数字下载",
     summaryLabel: "数字文件包"
