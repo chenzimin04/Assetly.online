@@ -1,4 +1,4 @@
-const defaultSupportEmail = "Chenmingliang34@gmail.com";
+const defaultSupportEmail = "support@assetly.online";
 
 export default function ContactPage() {
   const supportEmail = process.env.SUPPORT_EMAIL || defaultSupportEmail;

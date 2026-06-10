@@ -78,7 +78,7 @@ export function CheckoutForm({ product, locale = "en" }: { product: Product; loc
             value={email}
             onChange={(event) => setEmail(event.target.value)}
             className="w-full rounded-md border border-ink/15 px-4 py-3 text-sm outline-none ring-0 transition focus:border-ink/35"
-            placeholder="Chenmingliang34@gmail.com"
+            placeholder="support@assetly.online"
           />
         </label>
 
