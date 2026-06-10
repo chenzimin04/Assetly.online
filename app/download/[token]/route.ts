@@ -7,7 +7,7 @@ export async function GET(request: NextRequest, { params }: { params: { token: s
 
     if (!result.ok) {
       return new NextResponse(
-        `Download unavailable: ${result.reason}. Please contact ${process.env.SUPPORT_EMAIL || "support@example.com"}.`,
+        `Download unavailable: ${result.reason}. Please contact ${process.env.SUPPORT_EMAIL || "Chenmingliang34@gmail.com"}.`,
         { status: 400 }
       );
     }
