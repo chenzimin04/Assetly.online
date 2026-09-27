@@ -204,6 +204,7 @@ def build() -> None:
         shutil.rmtree(OUTPUT)
     (OUTPUT / "assets").mkdir(parents=True)
     shutil.copy2(STATIC / "style.css", OUTPUT / "assets" / "style.css")
+    shutil.copy2(STATIC / "google9a048b4d22be138f.html", OUTPUT / "google9a048b4d22be138f.html")
 
     for article in articles:
         rendered, headings = markdown(article["body"])
